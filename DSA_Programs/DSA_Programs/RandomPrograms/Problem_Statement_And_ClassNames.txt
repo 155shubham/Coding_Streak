@@ -1,0 +1,62 @@
+﻿PROBLEM-1:
+Could you please write a function, in c#, that takes an array of 4 points as its input, where each point is represented as a pair of x and y coordinates? 
+The function should return a boolean value - true if these four points can form a square, and false otherwise. 
+Please explain your thought process as you approach this problem.
+Input: [[0,0], [0,1], [1,0], [1,1]] Output: true
+Input: [[0,0], [0,1], [1,0], [2,1]] Output: false
+
+Class: CheckIfSquareBasedOnCoordinates
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PROBLEM-2:
+A truck has two fuel tanks. You are given two integers, mainTank representing the fuel present in the main tank in liters 
+and additionalTank representing the fuel present in the additional tank in liters.
+The truck has a mileage of 10 km per liter. Whenever 5 liters of fuel get used up in the main tank, if the additional tank has at least 1 liters of fuel, 
+1 liters of fuel will be transferred from the additional tank to the main tank.
+Return the maximum distance which can be traveled.
+Note: Injection from the additional tank is not continuous. It happens suddenly and immediately for every 5 liters consumed
+    
+Input: mainTank = 5, additionalTank = 10
+Output: 60
+Explanation: 
+After spending 5 litre of fuel, fuel remaining is (5 - 5 + 1) = 1 litre and distance traveled is 50km.
+After spending another 1 litre of fuel, no fuel gets injected in the main tank and the main tank becomes empty.
+Total distance traveled is 60km.
+    
+Input: mainTank = 1, additionalTank = 2
+Output: 10
+Explanation: 
+After spending 1 litre of fuel, the main tank becomes empty.
+Total distance traveled is 10km.
+
+
+Class: TotalDistanceTravelled
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PROBLEM-3:
+Given an array of size N, find the majority element. The majority element is the element that appears more than floor(N/2) times.
+You may assume that the array is non-empty and the majority element always exist in the array.
+Problem Constraints
+1 <= |A| <= 106
+1 <= Ai <= 109
+
+Input Format
+The first argument is an integer array A.
+
+Output Format
+Return the majority element.
+
+Example Input
+A = [2, 1, 2]
+
+Example Output
+2
+
+Example Explanation
+2 occurs 2 times which is greater than 3/2.
+
+class: MajorityElement
+Link: https://www.interviewbit.com/problems/majority-element/
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PROBLEM-4:
