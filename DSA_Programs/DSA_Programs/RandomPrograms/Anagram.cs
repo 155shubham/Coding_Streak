@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 
-namespace  DSA_Programs.Random
+namespace  DSA_Programs.RandomPrograms
 {
     internal class Anagram
     {
