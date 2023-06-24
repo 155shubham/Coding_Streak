@@ -2,58 +2,69 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DSA_Programs.Assignments
+namespace DSA_Programs.DailyOneProgram
 {
-
     /*
         Problem Description:
-        Given an integer A, you need to find the count of it's factors.
+        Given a number A. Return 1 if A is prime and return 0 if not. 
 
-        Factor of a number is the number which divides it perfectly leaving no remainder.
-
-        Example : 1, 2, 3, 6 are factors of 6
+        Note : 
+        The value of A can cross the range of Integer.
 
 
         Problem Constraints
-        1 <= A <= 109
+        1 <= A <= 1012
 
 
         Input Format
-        First and only argument is an integer A.
+        The first argument is a single integer A.
 
 
         Output Format
-        Return the count of factors of A.
+        Return 1 if A is prime else return 0.
 
 
         Example Input
         Input 1:
-        5
+        A = 5
         Input 2:
-        10
+
+        A = 10
 
 
         Example Output
         Output 1:
-        2
+        1
         Output 2:
-        4
+
+        0
 
 
         Example Explanation
         Explanation 1:
-        Factors of 5 are 1 and 5.
+        5 is a prime number.
         Explanation 2:
-        Factors of 10 are 1, 2, 5 and 10.
+
+        10 is not a prime number.
     */
-    internal class CountFactors
+    internal class PrimeNumber
     {
-        public static int solve(int A)
+        public static int solve(long A)
+        {
+            if (A < 1 || A > 1000000000000) return 0;
+
+            var countOfFactors = FactorsCount(A);
+            if (countOfFactors == 2)
+            {
+                return 1;
+            }
+            return 0;
+        }
+
+        private static int FactorsCount(long A)
         {
             int i = 1;
             int cnt = 0;
-
-            if (A < 1 || A > 1000000000) return 0;
 
             while (i <= Math.Sqrt(A))
             {

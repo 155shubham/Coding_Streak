@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DSA_Programs.Assignments
+namespace DSA_Programs.DailyOneProgram
 {
     /*
 
