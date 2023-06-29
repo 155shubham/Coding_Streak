@@ -108,3 +108,7 @@ namespace DSA_Programs.Arrays
         }
     }
 }
+
+
+//TC: O(n^2)
+// SC: O(1)
