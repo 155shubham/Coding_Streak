@@ -18,6 +18,10 @@ using DSA_Programs.RandomPrograms;
 
 //MaxMinOfAnArray.solve(new List<int>() { -2, 1, -4, 5, 3 });
 
+//LinearSearchMultipleOccurences.solve(new List<int>() { 1, 2, 2 }, 2);
+
+//TimeToEquality.solve(new List<int>() { 731, 349, 490, 781, 271, 405, 811, 181, 102, 126, 866, 16, 622, 492, 194, 735 });
+
 //Problems_on_1D_Array.solve();
 
 //********************************Interview_Snippets*****************************************

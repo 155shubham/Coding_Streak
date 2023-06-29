@@ -91,3 +91,7 @@ namespace DSA_Programs.Arrays
         }
     }
 }
+
+
+// TC: O(n)
+// OC: O(1)
