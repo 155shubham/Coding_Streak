@@ -1,11 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using DSA_Programs.Arrays;
-using DSA_Programs.DailyOneProgram;
 using DSA_Programs.Interview_Snippets;
 using DSA_Programs.RandomPrograms;
 
-Console.WriteLine("Welcome to World of Programs");
+//Console.WriteLine("Welcome to World of Programs");
 
 //********************************Arrays*****************************************
 
@@ -17,6 +16,9 @@ Console.WriteLine("Welcome to World of Programs");
 //ReverseInARange.solve_for_specific_range(new List<int>() { 2, 1, 3, 4, 5 }, 3,5);
 //ReverseInARange.solve_for_all(new List<int>() { 2, 1, 3, 4, 5 });
 
+//MaxMinOfAnArray.solve(new List<int>() { -2, 1, -4, 5, 3 });
+
+//Problems_on_1D_Array.solve();
 
 //********************************Interview_Snippets*****************************************
 //Samples.M1();
