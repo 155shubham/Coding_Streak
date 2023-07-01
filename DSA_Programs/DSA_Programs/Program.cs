@@ -1,12 +1,18 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using DSA_Programs.ArraysPrefixSum;
 using DSA_Programs.Arrays;
 using DSA_Programs.Interview_Snippets;
 using DSA_Programs.RandomPrograms;
 
 //Console.WriteLine("Welcome to World of Programs");
 
-//********************************Arrays*****************************************
+
+
+//InPlacePrefixSum.solve(new List<int>() { 6,7,6,8,9,3,-1});
+InPlacePrefixSum.solve(new List<int>() { 6, 3, 3, 6, 7, 8, 7, 3, 7});
+
+//********************************2_Arrays*****************************************
 
 
 //CountOfElements.solve(new List<int>() { 2, 1, 3, 4, 5 });
@@ -15,6 +21,10 @@ using DSA_Programs.RandomPrograms;
 
 //ReverseInARange.solve_for_specific_range(new List<int>() { 2, 1, 3, 4, 5 }, 3,5);
 //ReverseInARange.solve_for_all(new List<int>() { 2, 1, 3, 4, 5 });
+
+//ArrayRotation.solve(new List<int>() { 1, 1, 4, 9, 4, 7, 1 }, 9);
+//ArrayRotation.solve(new List<int>() { 1, 1, 4, 9, 4, 7, 1 }, 1);
+//ArrayRotation.solve(new List<int>() { 1, 1, 4, 9, 4, 7, 1 }, 7);
 
 //MaxMinOfAnArray.solve(new List<int>() { -2, 1, -4, 5, 3 });
 
@@ -30,7 +40,7 @@ using DSA_Programs.RandomPrograms;
 //Samples.M3();
 //Samples.M4();
 
-//********************************Prime_And_Factors*****************************************
+//********************************1_Prime_And_Factors*****************************************
 
 //CountFactors.solve(49);
 //CountFactors.solve(24);
