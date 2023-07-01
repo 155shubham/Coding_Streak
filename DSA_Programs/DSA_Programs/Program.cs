@@ -7,10 +7,11 @@ using DSA_Programs.RandomPrograms;
 
 //Console.WriteLine("Welcome to World of Programs");
 
-
-
+//********************************3_ArraysPrefixSum*****************************************
 //InPlacePrefixSum.solve(new List<int>() { 6,7,6,8,9,3,-1});
-InPlacePrefixSum.solve(new List<int>() { 6, 3, 3, 6, 7, 8, 7, 3, 7});
+//InPlacePrefixSum.solve(new List<int>() { 6, 3, 3, 6, 7, 8, 7, 3, 7});
+
+//EquilibriumIndexOfArray.solve(new List<int>() { 1,2,3,7,1,2,3});
 
 //********************************2_Arrays*****************************************
 
