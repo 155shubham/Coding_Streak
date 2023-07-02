@@ -85,6 +85,7 @@ namespace DSA_Programs.ArraysPrefixSum
                 PS.Add(PS[i - 1] + A[i]);
             }
 
+            // Find the range sum
             int leftQuery = 0; // L
             int rightQuery = 0; // R     
             for (int j = 0; j < m; j++)
@@ -105,6 +106,7 @@ namespace DSA_Programs.ArraysPrefixSum
 }
 
 
+// Note: If you want to find the sum of any range find the prefix sum and then it will be easier to find the 
 // The return type should be long the as the result can be more than integer range because the values of A array are till 10^9.
 
 // TC: O(n + n) --> O(2n) --> O(n)
