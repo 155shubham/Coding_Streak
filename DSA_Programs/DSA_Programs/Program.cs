@@ -8,6 +8,9 @@ using DSA_Programs.RandomPrograms;
 //Console.WriteLine("Welcome to World of Programs");
 
 //********************************3_ArraysPrefixSum*****************************************
+
+//RangeSumQuery.rangeSum(new List<int>() { 7, 3, 1, 5, 5, 5, 1, 2, 4, 5 }, new List<List<int>>() { new List<int>(){ 6, 9 }, new List<int>() { 2, 9 }, new List<int>() { 2, 4 }, new List<int>() { 0, 9 } });
+
 //InPlacePrefixSum.solve(new List<int>() { 6,7,6,8,9,3,-1});
 //InPlacePrefixSum.solve(new List<int>() { 6, 3, 3, 6, 7, 8, 7, 3, 7});
 
