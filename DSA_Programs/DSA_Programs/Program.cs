@@ -5,9 +5,16 @@ using DSA_Programs.Arrays;
 using DSA_Programs.Interview_Snippets;
 using DSA_Programs.RandomPrograms;
 using DSA_Programs.ArraysCarryForward;
+using DSA_Programs.ArraysSubArrays;
 
 //Console.WriteLine("Welcome to World of Programs");
 
+//********************************ArraysSubArrays*****************************************
+//SubarrayInGivenRange.solve(new List<int>() { 2, 5, 8, -1, 10, 0 }, 5, 10);
+
+GenerateAllSubArrays.solve(new List<int>() { 36, 63, 63, 26, 87, 28, 77, 93, 7 });
+
+//MaximumSubArrays.maxSubarray(9, 78, new List<int>() { 7, 1, 8, 5, 8, 5, 3, 3, 5 });
 
 //********************************ArraysCarryForward*****************************************
 

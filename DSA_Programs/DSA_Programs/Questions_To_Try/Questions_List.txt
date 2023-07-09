@@ -1,0 +1,21 @@
+﻿1.
+A word is diverse if it does not contain three equal consecutive letters (for example, "aaba" is diverse, but
+'aaab" is not).
+What is the alphabetically smallest diverse word that can be built using exactly A letters "a*, B letters "b* and C letters "c*? A, B and C are chosen in such a way that it is always possible to build such a word.
+Write a function:
+string solution(int A, int B, int C):
+that, given three integers A, B and C, returns the alphabetically smallest diverse word that can be built.
+Examples:
+1. Given A = 3, B = 1 and C = 0, the function should return "aaba*.
+2. Given A = 1, B = 4 and C = 4, the function should return abbebebec.
+3. Given A = 1, B = 3 and C = o/he function should return babb:
+Write an efficient algorithm for the following assumptions:
+• A, B and C are integers within the range [0.. 100,000);
+• it is always possible to build a diverse word;
+• the length of the answer (A + B + C) is an integer within the range [...100,000).
+
+
+2. Sorting
+
+
+3. find all sub arrays using recursion
