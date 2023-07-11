@@ -19,3 +19,6 @@ Write an efficient algorithm for the following assumptions:
 
 
 3. find all sub arrays using recursion
+
+
+4. Kadane's Algorithm - Maximum Sum Subarray (Amazon Coding Interview Question)

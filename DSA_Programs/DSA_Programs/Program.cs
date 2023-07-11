@@ -6,13 +6,27 @@ using DSA_Programs.Interview_Snippets;
 using DSA_Programs.RandomPrograms;
 using DSA_Programs.ArraysCarryForward;
 using DSA_Programs.ArraysSubArrays;
+using DSA_Programs.Arrays2DMatrices;
 
 //Console.WriteLine("Welcome to World of Programs");
+
+
+
+
+//********************************Arrays2DMatrices*****************************************
+//ColumnSum.solve(new List<List<int>>() { new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9 }, new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9 } });
+//ColumnSum.solve(new List<List<long>>() { new List<long>{ 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9 , 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9 }, new List<long> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9 } });
+
+MinorDiagonalSum.solve(new List<List<int>>() { new List<int>() { 47, -59, 20, 33, 20, -47, -87, -59, 85 }, new List<int>() { 8, -67, 48, -10, -23, -68, -28, 62, -94 }, 
+    new List<int>() { -50, 77, -39, -57, 15, 71, 44, 13, -53 }, new List<int>() { -30, 43, -92, -94, 42, 37, 95, 7, 19 }, 
+    new List<int>() { -1, 92, -85, 20, -53, -16, 31, -95, 4 }, new List<int>() { -62, 49, 0, 53, -93, -61, -49, 86, 97 }, 
+    new List<int>() { 62, -26, -1, -38, 59, -93, -93, 12, -90 }, new List<int>() { 78, 85, 90, 89, -65, 5, 48, 40, -86 }, 
+    new List<int>() { -79, -68, -89, 90, -40, 47, 68, -25, 92 } });
 
 //********************************ArraysSubArrays*****************************************
 //SubarrayInGivenRange.solve(new List<int>() { 2, 5, 8, -1, 10, 0 }, 5, 10);
 
-GenerateAllSubArrays.solve(new List<int>() { 36, 63, 63, 26, 87, 28, 77, 93, 7 });
+//GenerateAllSubArrays.solve(new List<int>() { 36, 63, 63, 26, 87, 28, 77, 93, 7 });
 
 //MaximumSubArrays.maxSubarray(9, 78, new List<int>() { 7, 1, 8, 5, 8, 5, 3, 3, 5 });
 
