@@ -8,8 +8,27 @@ using DSA_Programs.ArraysCarryForward;
 using DSA_Programs.ArraysSubArrays;
 using DSA_Programs.Arrays2DMatrices;
 using DSA_Programs.ArraysSlidingWindow;
+using DSA_Programs.contest;
+using DSA_Programs.Bit_Manipulations;
+using DSA_Programs.BitManipulations1;
 
 //Console.WriteLine("Welcome to World of Programs");
+
+
+
+//********************************BitManipulations1*****************************************
+//AnyBaseToDecimal.solve(1010, 2);
+
+SingleNumber.singleNumber(new List<int>() { 1, 2, 2, 3, 1 });
+
+
+
+//********************************ArraysInterviewProblems*****************************************
+
+
+//********************************Contest-1*****************************************
+
+//longestnegative.solve(new List<int>() { -2, 1, -1, -3, 4 });
 
 //********************************Arrays2DMatrices*****************************************
 
@@ -36,6 +55,7 @@ using DSA_Programs.ArraysSlidingWindow;
 //    new List<int>() { 62, -26, -1, -38, 59, -93, -93, 12, -90 }, new List<int>() { 78, 85, 90, 89, -65, 5, 48, 40, -86 }, 
 //    new List<int>() { -79, -68, -89, 90, -40, 47, 68, -25, 92 } });
 
+//AntiDiagonals.diagonal(new List<List<int>>() { new List<int>() { 1, 2, 3 }, new List<int>() { 4, 5, 6 }, new List<int>() { 7, 8, 9 } });
 //********************************ArraysSubArrays*****************************************
 //SubarrayInGivenRange.solve(new List<int>() { 2, 5, 8, -1, 10, 0 }, 5, 10);
 

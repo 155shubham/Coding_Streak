@@ -22,3 +22,8 @@ Write an efficient algorithm for the following assumptions:
 
 
 4. Kadane's Algorithm - Maximum Sum Subarray (Amazon Coding Interview Question)
+
+5. count each words in string array and generate a new array with those unique frequencies for the sorted 
+	a : {'the', 'boy', 'girl', 'the', 'tie'} o/p : res : {1, 1, 1, 2}
+
+6. Sql question group by count and then take out the latest by count
