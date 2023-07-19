@@ -9,7 +9,6 @@ using DSA_Programs.ArraysSubArrays;
 using DSA_Programs.Arrays2DMatrices;
 using DSA_Programs.ArraysSlidingWindow;
 using DSA_Programs.contest;
-using DSA_Programs.Bit_Manipulations;
 using DSA_Programs.BitManipulations1;
 
 //Console.WriteLine("Welcome to World of Programs");
@@ -19,9 +18,9 @@ using DSA_Programs.BitManipulations1;
 //********************************BitManipulations1*****************************************
 //AnyBaseToDecimal.solve(1010, 2);
 
-SingleNumber.singleNumber(new List<int>() { 1, 2, 2, 3, 1 });
 
 
+//SingleNumber.singleNumber(new List<int>() { 1, 2, 2, 3, 1 });
 
 //********************************ArraysInterviewProblems*****************************************
 
