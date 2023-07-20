@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA_Programs.Bit_Manipulations
+namespace DSA_Programs.BitManipulations1
 {
 
     /*
@@ -49,7 +49,24 @@ namespace DSA_Programs.Bit_Manipulations
 
     internal class AnyBaseToDecimal
     {
+
+        //Best Solution
         public static int solve(int A, int B)
+        {
+            int pos = 1;
+            int ans = 0;
+
+            while (A > 0)
+            {
+                ans += (A % 10) * pos;
+                pos *= B;
+                A /= 10;
+            }
+            return ans;
+        }
+
+        //Better Solution
+        public static int solve1(int A, int B)
         {
             string numStr = A.ToString();
             int len = numStr.Length;
@@ -64,5 +81,7 @@ namespace DSA_Programs.Bit_Manipulations
 
             return numDNS;
         }
+
+        
     }
 }
