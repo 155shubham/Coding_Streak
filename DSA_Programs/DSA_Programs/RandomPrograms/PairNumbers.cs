@@ -52,6 +52,7 @@ namespace DSA_Programs.RandomPrograms
 
         /*
         TC: O(n)
+
         //Solution Hint:
             //  Follow the steps below to solve the given problem: 
 
@@ -64,12 +65,23 @@ namespace DSA_Programs.RandomPrograms
             int n = payments.Count;
             long cnt = 0;
             Dictionary<int, int> dict = new Dictionary<int, int>();
-            
+
             for (int i = 0; i < n; i++)
             {
-                if (dict.ContainsKey(100 - (payments[i] % 100))) cnt += 1;
-                //else if (dict.ContainsKey(payments[i])) cnt++;
-                else dict.Add(payments[i], 1);
+                if (dict.ContainsKey(100 - payments[i]))
+                {
+                   cnt = dict[100 - (payments[i] % 100)]; // as many no of complements that many nof of pair suppose 40,40,60
+                }
+                
+                if (dict.ContainsKey(payments[i])) // if more than one time increse the count
+                {
+                    dict[payments[i]] += 1;
+                }
+                else
+                {
+                    dict.Add(payments[i], 1);
+                }
+
             }
 
             return cnt;
