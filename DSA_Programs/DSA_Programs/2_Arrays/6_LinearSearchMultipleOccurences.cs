@@ -9,10 +9,7 @@ namespace DSA_Programs.Arrays
     /*
 
     Q2. Linear Search - Multiple Occurences
-    Solved
-    feature icon
-    Using hints is now penalty free
-    Use Hint
+
     Problem Description
 
     Given an array A and an integer B, find the number of occurrences of B in A.
